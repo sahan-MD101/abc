@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:  # allows manual trigger
   schedule:
-    - cron: '0 */6 * * *'  # runs every 6 hours
+    - cron: '0 */7 * * *'  # runs every 7 hours
 
 jobs:
   deploy-bot:
